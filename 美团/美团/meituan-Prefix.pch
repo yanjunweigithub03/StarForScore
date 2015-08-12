@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  美团
+//
+//  Created by lanou3g on 15/7/23.
+//  Copyright (c) 2015年 lanou3g. All rights reserved.
+//
+
+#ifndef ___PrefixHeader_pch
+#define ___PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define CATEURL @"http://api.meituan.com/group/v3/cate/menu/iphone/5.7.1?__skck=40aaaf01c2fc4801b9c059efcd7aa146&__skcy=UiL7cNo%2Bd31lSquM5cgX13JNgN8%3D&__skno=383B2F02-C925-49F3-BBFF-F9787E6A9116&__skts=1437569415.948038&__skua=bf0283a221098c5f06ab0c55faef0745&__vhost=api.mobile.meituan.com&ci=1&cityId=1&client=iphone&extendHomepage=true&hasGroup=false&movieBundleVersion=100&msid=FEB19DAD-AC2A-4293-AB25-47660CA8A1EF2015-07-23-16-32523&mypos=0.000000%2C0.000000&utm_campaign=AgroupBgroupFab_i_group_5_5_onsite__b__b___ab_mingdiangexinghua0707__a__a___b1junglehomepagecatesort__b__leftflow___ab_pindaochangsha__a__leftflow___ab_gxhceshi0202__c__c___ab_gxh_82__nostrategy__leftflow___ab_chunceshishuju__b__b___a20141120nanning__m1__leftflow___i_group_5_2_deallist_poitype__d__b___ab_gxtest__gd__leftflow___ab_pindaoshenyang__a__leftflow___ab_pindaoquxincelue0630__a__a2___ab_gxhceshi__nostrategy__leftflow___ab_waimaiwending__b__b&utm_content=5BA26E181887165E185CF3E88320D8C151DFC560FF16E9850D52C303CE2D56D8&utm_medium=iphone&utm_source=AppStore&utm_term=5.7.1&uuid=5BA26E181887165E185CF3E88320D8C151DFC560FF16E9850D52C303CE2D56D8&version_name=5.7.1"
+
+#define LISTURL @"http://api.meituan.com/group/v4/deal/select/city/1/cate/?__skck=40aaaf01c2fc4801b9c059efcd7aa146&__skcy=fH22epGJ6bYC3BX8EMIUm5XPRaM%3D&__skno=6851E339-C079-494B-AF1F-AE5A7D194B23&__skts=1437576907.896787&__skua=bf0283a221098c5f06ab0c55faef0745&__vhost=api.mobile.meituan.com&ci=1&client=iphone&hasGroup=true&limit=20&movieBundleVersion=100&msid=FEB19DAD-AC2A-4293-AB25-47660CA8A1EF2015-07-26-20-32523&offset=0&poiFields=phone%2CmarkNumbers%2CcityId%2Caddr%2Clng%2ChasGroup%2CsubwayStationId%2Ccates%2CfrontImg%2CchooseSitting%2Cwifi%2CavgPrice%2Cstyle%2CfeatureMenus%2CavgScore%2Cname%2CparkingInfo%2Clat%2CcateId%2Cintroduction%2CshowType%2CareaId%2CdistrictId%2Cpreferent%2ClowestPrice%2CcateName%2CareaName%2CzlSourceType%2CcampaignTag%2Cktv%2Cdiscount%2CgroupInfo%2Cabstracts%2Crecommendation%2CiUrl%2CpayInfo%2CpayAbstracts&sort=defaults&utm_campaign=AgroupBgroupFab_i_group_5_5_onsite__b__b___ab_mingdiangexinghua0707__a__a___b1junglehomepagecatesort__b__leftflow___ab_pindaochangsha__a__leftflow___ab_gxhceshi0202__c__c___ab_gxh_82__nostrategy__leftflow___ab_chunceshishuju__b__b___a20141120nanning__m1__leftflow___i_group_5_2_deallist_poitype__d__b___ab_gxtest__gd__leftflow___ab_i550poi_shfw__d__leftflow___ab_pindaoshenyang__a__leftflow___ab_pindaoquxincelue0630__a__a2___ab_gxhceshi__nostrategy__leftflow___ab_waimaiwending__b__bGhomepage_category1_1__a1&utm_content=5BA26E181887165E185CF3E88320D8C151DFC560FF16E9850D52C303CE2D56D8&utm_medium=iphone&utm_source=AppStore&utm_term=5.7.1&uuid=5BA26E181887165E185CF3E88320D8C151DFC560FF16E9850D52C303CE2D56D8&version_name=5.7.1"
+
+#define kHOTELURL @"http://api.hotel.meituan.com/group/v1/poi/select/hotel?client=iphone&cateId=20&ci=1&cityId=1&limit=20&msid=FEB19DAD-AC2A-4293-AB25-47660CA8A1EF2015-07-28-10-5966&offset=0&poiAccommodationType=1&sort=smart&startendday=20150728~20150728&subType=0&utm_campaign=AgroupBgroupFab_i_group_5_5_onsite__b__b___ab_mingdiangexinghua0707__a__a___ab_gxhceshi0202__c__c___ab_i550poi_xxyl__b__leftflow___ab_i550poi_lr__b__c___i_group_5_2_deallist_poitype__d__b___ab_i550poi_shfw__d__leftflow___ab_i550poi_ktv__d__b___ab_pindaoquxincelue0630__a__a2___ab_waimaiwending__b__bGhomepage_category3_20__a1&utm_content=5BA26E181887165E185CF3E88320D8C151DFC560FF16E9850D52C303CE2D56D8&utm_medium=iphone&utm_source=AppStore&utm_term=5.7.1&uuid=5BA26E181887165E185CF3E88320D8C151DFC560FF16E9850D52C303CE2D56D8&version_name=5.7.1&movieBundleVersion=100"
+
+
+#endif
